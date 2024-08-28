@@ -1,0 +1,216 @@
+@font-face {
+      font-family: Halogen;
+      src: url('./fonnts.com-Halogen_Flare_Regular.otf');
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  html,
+  body {
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      overflow-x: hidden;
+  }
+
+  /* Section1-------------- */
+  #section1{
+      width: 100%;
+      height: 80%;
+      /* background-color: red; */
+  }
+  .Page1img1 {
+      width: 95%;
+      height: 60vh;
+margin: 0 auto;
+margin-top: 3vw;
+}
+.Page1img1 img{
+      width: 100%;
+      border-radius: 10px;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+  }
+
+  /* Section2---------------- */
+  #sect2{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      padding: 2.5vw;
+      gap: 2.5vw;
+  }
+  .sect2Div1{
+      width: 50%;
+      height: 100%;
+      /* background-color: green; */
+  }
+.sect2Div1 h1{
+      font-family: Halogen, sans-serif;
+      color: #1d1d1d;
+      font-size: 2.1rem;
+      line-height: 1.3;
+      font-weight: 900;
+}
+.sect2Div1 h2{
+      width: 80%;
+      margin-top: 1.5vw;
+
+}
+.sect2Div1 p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-top: 1.5vw;
+}
+  .sect2Div2{
+      width: 50%;
+      height: 100%;
+      /* background-color: green; */
+  }
+  .sect2Div2-1 input{
+      width: 100%;
+      padding: 3vw;
+  }
+  .btns3{
+      margin-top: 1vw;
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+  }
+  .btn4 {
+      flex: 1;
+      text-align: center;
+  }
+
+  .sect2Div2-2{
+      margin-top: 2vw;
+  }
+ .sect2Div2Cards{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1vw;
+ }
+  .sect2Div2Card1{
+      width: 48%;
+      height: 30%;
+      /* background-color: yellow; */
+      border-radius: 10px;
+      border: 1px solid #999;
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      padding:.5vw;
+      margin-top: .4vw;
+
+  }
+  .sect2Div2Card1 img{
+width: 15%;
+height: 15%;
+background-color: blue;
+color: #fff;
+border-radius: 50%;
+padding: .6vw;
+  }
+  .sect2Div2Card1Text h2{
+      font-size: 1.7vw;
+  }
+
+  /* sect3------------------------ */
+  #sect3{
+      width: 100%;
+      height: 100%;
+      background-color: red;
+  }
+
+  #section6{
+      margin-top: 8vw;
+  }
+
+
+
+  @media screen and (width > 300px) and (width < 768px){
+      #section1{
+            width: 100%;
+            height: 50%;
+            /* background-color: red; */
+      }
+      .Page1img1 {
+            width: 90%;
+            margin-top: 3vw;
+            height: 50%;
+      } 
+      #sect2{
+            flex-direction: column;
+            align-items: center;
+      }
+      .sect2Div1{
+            width: 95%;
+      }
+      .sect2Div1 h1{
+            width: 100%;
+            text-align: center;
+      }
+      .sect2Div1 h2{
+            width: 100%;
+            text-align: start;
+            margin-top: 2vw;
+      }
+      .sect2Div1 p{
+            width: 100%;
+            text-align: start;
+            margin-top: 3vw;
+            color: #888383;
+      }
+      .sect2Div2{
+            width: 95%;
+            margin-top: 6vw;
+      }
+      .btns3{
+            flex-direction: column;
+            margin-top: 3vw;
+      }
+      .btns3 .btn4 {
+            flex: 0;
+            text-align: center;
+            font-size: 4.5vw;
+        }  
+        .btns3 .btn3 {
+            /* flex: 1; */
+            font-size: 6vw;
+            text-align: center;
+            padding: 3vw;
+        }  
+        .sect2Div2-2{
+            margin-top: 12vw;
+        }
+        .sect2Div2Cards{
+            align-items: center;
+            justify-content: center;
+            margin-top: 6vw;
+            gap: 3vw;
+        }
+        .sect2Div2Card1{
+            width: 90%;
+            flex-direction: column;
+            padding: 2vw;
+        }
+        .sect2Div2Card1 img{
+            width:20%;
+            height: 15%;
+        }
+        .sect2Div2Card1Text h2{
+            font-size: 6vw;
+            text-align: center;
+        }
+        .sect2Div2Card1Text p{
+            font-size: 4vw;
+            text-align: center;
+        }
+  }
